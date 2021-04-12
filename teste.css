@@ -1,0 +1,226 @@
+/***Categorias***/
+
+.forabg {margin: 0px -5px;}
+
+ul.forums {
+margin: 0px 0px 20px;
+width: 1198px; 
+overflow: hidden!important;
+padding: 0px;
+}
+
+li.header, .esta-titulo {
+text-transform: uppercase;
+height: 140px;
+width: 1220px;
+overflow: hidden;
+border: 0px;
+padding: 0px;
+line-height: 10px;
+background-color: #222;
+clip-path: polygon(0% 0%, 98% 0, 100% 18%, 100% 100%, 100% 100%, 0% 100%, 0 100%, 0% 100%);
+}
+
+.header-title-icon, .esta-icone {
+    width: 33px;
+    height: 33px;
+    display: block;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: #1e2023c4;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: -102px;
+    font-family: "Font Awesome 5 Free"; 
+}
+
+.header-title-icon:before, .esta-icone:before {
+content: " ";
+position: absolute;
+width: 49px;
+border-bottom: 1px solid white;
+transform: rotate(-45deg);
+transform-origin: center;
+opacity: 0.5;
+-moz-opacity: 0.5;
+}
+
+.header-title-icon i, .esta-icone i {
+font-family: "Font Awesome 5 Free"; 
+font-size: 15px!important;
+color: #3b6573 !important;
+positon: absolute;
+z-index: 2;
+filter: contrast(100%) brightness(150%);
+}
+
+.table-title h2, .esta-titulo titulo {
+display: block;
+
+margin-top: 70px;
+margin-left: 105px;
+text-align: left;
+font-weight: 800;
+position: relative;
+color: #FFF!important;
+font-family: Poppins;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 25px;
+letter-spacing: -1px;
+width: auto;
+}
+
+.table-title h2  b, .esta-titulo titulo b { 
+filter: contrast(80%) brightness(190%);
+font-weight: 800;
+}
+
+li.header sub, .esta-titulo sub {
+display: block;
+font-weight: 400;
+letter-spacing: 1px;
+color: #fff;
+width: 1028px;
+margin-left: 105px;
+margin-top: 13px;
+font-family: heebo;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 11px;
+letter-spacing: 0px;
+height: 15px;
+overflow: hidden;
+position: relative;
+}
+
+.esta-titulo sub a {color: white;}
+
+.manual .row {
+width: 573px;
+height: 400px;
+transition: 0.5s;
+position: relative;
+z-index: 3;
+display: inline-block;
+margin-top: 25px!Important;
+margin-left: 24px!important;
+font-size: 0px;
+overflow: hidden;
+background-size: cover!important;
+background-position: center!important;
+border: 0px;
+}
+
+.manual .row:nth-child(1) {
+width: 1170px!Important;
+height: 350px!Important;
+margin-left: 0px;
+background-image: url(https://ipsumimage.appspot.com/1170x350);
+}
+
+.manual .row:nth-child(2) {background-image: url(https://ipsumimage.appspot.com/575x450);}
+.manual .row:nth-child(3) {background-image: url(https://ipsumimage.appspot.com/575x400);}
+
+.manual dd.lastpost {display: none;}
+
+.runeterra .row {
+width: 1170px;
+height: 600px;
+margin-top: 25px;
+display: inline-block;
+overflow: hidden;
+background-color: #333;
+background-image: url(https://ipsumimage.appspot.com/1170x600);
+font-size: 0px;
+margin-left: 25px;
+} 
+ 
+.modal-content {
+display: none;
+}
+
+#fade-background {
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: 999;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+#modal-window {
+    position: fixed;
+    box-sizing: border-box;
+    top: calc(50% - 241px);
+    left: calc(50% - 525px);
+    width: 1100px;
+    height: 500px;
+    z-index: 999;
+    background: white;
+}
+
+.personagem ul.forums {margin-left: 0px!important; width: 1220px;}
+
+.personagem .row {
+width: 573px;
+height: 400px;
+transition: 0.5s;
+position: relative;
+display: inline-block;
+margin-top: 25px;
+margin-left: 24px;
+font-size: 0px;
+overflow: hidden;
+background-size: cover!important;
+background-position: center!important;
+border: 0px;
+background-image: url(https://ipsumimage.appspot.com/575x400);
+}
+
+.quarto {
+width: 510px!important;
+height: 510px!important;
+z-index: 999;
+position: relative;
+overflow: visible!Important;
+margin-top: -239px!important;
+margin-bottom: -267px!Important;
+margin-left: 352.9px!important;
+background: #FFF!Important;
+background-image: transparent!important;
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+padding: 0px!Important;
+display: flex!important;
+align-items: center!important;
+justify-content: center!important;
+}
+
+.quarto-imagem {
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+width: 450px;
+height: 450px;
+background-image: url(https://ipsumimage.appspot.com/450x450);
+}
+
+.lazer .row {
+width: 273px;
+height: 320px;
+background-image: url(https://ipsumimage.appspot.com/275x320);
+display: inline-block;
+margin-left: 25px;
+margin-top: 25px;
+transition: 0.5s;
+border: 0px!important;
+overflow: hidden;
+padding: 0px!important;
+font-size: 0px;
+}
